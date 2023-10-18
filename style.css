@@ -20,4 +20,52 @@
 
 body {
   font-family: 'Outfit';
+  font-size: 15px;
+  line-height: 1.26;
+  letter-spacing: 0.19px;
+  color: #7D889E;
+  background-color: #D5E1EF;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  display: grid;
+  width: 95%;
+  max-width: 320px;
+  padding: 16px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 25px 25px hsla(0, 0%, 0%, 0.05);
+}
+
+.card__qr-code {
+  grid-row: 1 / 2;
+  display: block;
+  width: 288px;
+  max-width: 100%;
+  margin-bottom: 24px;
+  border-radius: 10px;
+}
+
+.card__title,
+.card__subtitle {
+  padding-inline: 16px;
+}
+
+.card__title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #1F314F;
+  margin-bottom: 16px;
+}
+
+.card__subtitle {
+  margin-bottom: 24px;
 }
